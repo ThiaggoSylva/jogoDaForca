@@ -139,6 +139,7 @@ class Program
             {
                 Console.WriteLine("---------------------------------");
                 Console.WriteLine("Que azar! Tente novamente.");
+                Console.WriteLine($"A Palavra Secreta era: {palavraAleatoria}.");
                 Console.WriteLine("---------------------------------");
             }
 
