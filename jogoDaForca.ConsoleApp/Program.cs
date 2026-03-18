@@ -170,7 +170,7 @@ class Program
         {
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
-            Console.WriteLine(@" |         o        ");
+            Console.WriteLine(@" |         O        ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
@@ -182,7 +182,7 @@ class Program
         {
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
-            Console.WriteLine(@" |         o        ");
+            Console.WriteLine(@" |         O        ");
             Console.WriteLine(@" |         |        ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
@@ -194,7 +194,7 @@ class Program
         {
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
-            Console.WriteLine(@" |         o        ");
+            Console.WriteLine(@" |         O        ");
             Console.WriteLine(@" |        /|        ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
@@ -206,7 +206,7 @@ class Program
         {
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
-            Console.WriteLine(@" |         o        ");
+            Console.WriteLine(@" |         O        ");
             Console.WriteLine(@" |        /|\       ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
@@ -218,7 +218,7 @@ class Program
         {
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
-            Console.WriteLine(@" |         o        ");
+            Console.WriteLine(@" |         O        ");
             Console.WriteLine(@" |        /|\       ");
             Console.WriteLine(@" |        / \       ");
             Console.WriteLine(@" |                  ");
