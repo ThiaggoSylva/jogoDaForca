@@ -33,7 +33,9 @@ class Program
         Console.WriteLine("---------------------------------");
     }
 
-    // DESAFIO 3
+    //Desafio 3: Nível de dificuldade e categorias diferentes de palavras
+    //O jogador escolhe um nível de dificuldade antes de iniciar, cada dificuldade terá uma categoria
+    //diferente de palavras que serão utilizadas no jogo (exemplo: frutas, animais, países).
     static string EscolherDificuldade()
     {
         Console.WriteLine("Escolha a dificuldade:");
@@ -123,7 +125,9 @@ class Program
 
             tentativa = RemoverAcentos(tentativa);
 
-            // DESAFIO 4
+            //Desafio 4: Palavras inteiras
+            //Dar ao usuário a opção de digitar uma palavra inteira como tentativa. (Conta como 1 erro
+            //se incorreta).
             if (tentativa.Length > 1)
             {
                 if (tentativa == palavraNormalizada)
@@ -143,7 +147,8 @@ class Program
 
             char letra = tentativa[0];
 
-            // DESAFIO 1
+            //Desafio 1: Validação, armazenamento e exibição de letras já digitadas
+            //Não permitir uso de letras já chutadas, também exibir as letras erradas.
             if (letrasDigitadas.Contains(letra))
             {
                 Console.WriteLine("Você já digitou essa letra!");
@@ -159,7 +164,9 @@ class Program
             {
                 char letraPalavra = RemoverAcentos(palavra[i].ToString())[0];
 
-                // DESAFIO 2
+                //Desafio 2: Validação de letras com acento
+                //O jogo deve reconhecer o chute de uma letra independente se ela contém acento
+                //( ́, ~, ^, etc...) na palavra secreta.
                 if (letra == letraPalavra)
                 {
                     letrasAcertadas[i] = palavra[i];
